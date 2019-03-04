@@ -1,6 +1,6 @@
-# function to check the word sums work 
+# The following is the python code for the following question 
 
-import string 
+# Question: https://dodona.ugent.be/en/courses/71/series/980/exercises/1252594784/
 
 def letter_value(ch):
     new = ord(ch)

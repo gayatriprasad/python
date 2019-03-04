@@ -1,4 +1,7 @@
-# function to return a dictonary with the count for each character
+# The following is the python code for the following question 
+
+# Question: https://dodona.ugent.be/en/courses/40/series/568/exercises/680840770/
+
 
 def fill(couple_of_letters):
     my_list = list(str(couple_of_letters).upper())
@@ -40,7 +43,8 @@ def remove(couple_of_letters, bag_dict):
         elif v < 0:
             assert 0, "not all letters are in the bag"
     return bag_dict  
+
+    
 bag08 = {'T': 2, 'O': 3, 'C': 2, 'Y': 1, 'M': 2, 'R': 2, 'H': 1, 'P': 1, 'E': 1, 'L': 2, 'I': 2, 'A': 1}
 # print(remove('ROCTPLYOI', bag08))
-bag =     {    'A': 1,    'C': 1,    'E': 1,    'H': 1,    'I': 1,    'L': 1,    'M': 2,    'O': 1,    'R': 1,    'T': 1}
-print(remove(['T', 'O', 'L', 'I', 'C', 'T', 'O', 'I', 'H'], bag))
+print(remove(['T', 'O', 'L', 'I', 'C', 'T', 'O', 'I', 'H'], bag08))

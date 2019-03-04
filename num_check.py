@@ -1,4 +1,7 @@
-# function to return a customised list 
+# The following is the python code for the following question 
+
+# Question:  https://dodona.ugent.be/en/courses/40/series/544/exercises/1158810383/
+ 
 
 def serialNumber(num):
     ser_num = str(num)

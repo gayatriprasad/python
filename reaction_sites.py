@@ -1,4 +1,6 @@
-# Function to check if a part of the DNA sequence is a palindrome 
+# The following is the python code for the following question 
+
+# Quesstion: https://dodona.ugent.be/en/courses/40/series/543/exercises/1766905792/
 
 alt_map = {'org':'inv'}
 complement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
@@ -38,6 +40,4 @@ def restrictionSites(seq, minLength = 4, maxLength = 12):
     sites = sorted(sites, key=lambda x: (x[0], len(x[1])))
     return sites 
     
-# print(restrictionSites('TCAATGCATGCGGGTCTATATGCAT'))    
-# print(restrictionSites('AAGTCATAGCTATCGATCAGATCAC'))
 print(restrictionSites('CTGCCTCCAATTAATTGGAGGACCATTATAGACGAAAGGGCGGTG', minLength=2, maxLength=5))    
